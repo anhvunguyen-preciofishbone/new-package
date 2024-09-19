@@ -1,0 +1,29 @@
+{
+  "name": "new-cookie-handler",
+  "version": "1.0.0",
+  "description": "A reusable React function",
+  "main": "dist/cookieHandler.js",
+  "types": "dist/cookieHandler.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "function",
+    "component"
+  ],
+  "author": "Vu Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.6.0",
+    "next": "^14.2.12",
+    "use-cookie-hook": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.6.0",
+    "@types/next": "^8.0.7",
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2",
+    "webpack": "^4.47.0"
+  }
+}
